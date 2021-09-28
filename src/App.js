@@ -4,20 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p className="bg-yellow-200 text-4xl hover:bg-red-900">This is my text</p>
+      <p className="text-primary">hello text</p>
+      <p className="text-custom"> This tailwind class is made by me</p>
     </div>
   );
 }
